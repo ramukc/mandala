@@ -71,8 +71,8 @@
                                 echo '
                                     <div style="display: flex; align-items: center;">
                                         <div class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" id="navbarDropdown_3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                ' . $name . '
+                                            <a class="nav-link dropdown-toggle" id="navbarDropdown_3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                             <b>' . $name . '<b>
                                             </a>
                                             <div class="dropdown-menu" aria-labelledby="navbarDropdown_3">
                                                 <a class="dropdown-item" href="allorders.php">My Orders</a>
@@ -82,7 +82,7 @@
                                         </div>
                                         <div>
                                             <a href="cart.php" id="navbarDropdown3">
-                                            <i class="fas fa-cart-plus"></i>
+                                            <b><i class="fas fa-cart-plus"></i></b>
                                             </a>
                                         </div>
                                     </div>
